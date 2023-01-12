@@ -32,3 +32,13 @@ function createDuck() {
   })
   return daffy
 }
+
+  for (let i = 0; i < 5; i++) {
+    createDuck();
+}
+
+let checkForWinner = () => {
+  if (document.querySelectorAll(".duck").length === 0) {
+    alert("YOU SURVIVE");
+  }
+}
