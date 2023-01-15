@@ -29,3 +29,20 @@ html {
 .duck.right {
   background-position: -200px -160px;
 }
+
+.duck.right.flap {
+  background-position: -300px -160px;
+}
+
+.duck {
+  background-position: -100px -160px;
+}
+
+.duck.flap {
+  background-position: -430px -160px;
+}
+
+.duck.shot {
+  background-position: center;
+  background-image: url(images/shot.png);
+}
